@@ -1,6 +1,8 @@
 module github.com/tullo/otel-workshop-honeycomb
 
-go 1.22
+go 1.22.7
+
+toolchain go1.22.9
 
 // replace github.com/tullo/otel-workshop => ../workshop
 
@@ -10,7 +12,7 @@ require (
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.31.0
 	go.opentelemetry.io/otel/sdk v1.31.0
-	google.golang.org/grpc v1.67.1
+	google.golang.org/grpc v1.68.0
 )
 
 require (
