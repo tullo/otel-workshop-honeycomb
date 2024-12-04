@@ -2,7 +2,7 @@ module github.com/tullo/otel-workshop-honeycomb
 
 go 1.22.7
 
-toolchain go1.23.3
+toolchain go1.23.4
 
 // replace github.com/tullo/otel-workshop => ../workshop
 
